@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+Old+Uyghur:regular");
+@import url("https://fonts.googleapis.com/css?family=Sofadi+One:regular");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.search {
+  /* border: 1px black solid; */
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ff5900;
+  color: white;
+  font-family: "Sofadi one";
+}
+.search h1 {
+  margin: 0;
+}
+#combo {
+  /* border: 1px red solid; */
+  background-color: #dfe447fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px ;
+}
+.paragraph {
+  /* border: 1px yellow solid; */
+  width: 350px;
+  color: white;
+}
+a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+#logo {
+  /* border: 1px black solid; */
+  margin-right: 500px;
+}
+p {
+  /* border: 1px black solid; */
+  width: 450px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* margin: 0; */
+}
+.butnav {
+  border: 1px white solid;
+  background-color: #dfe447fe;
+  color: white;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+.but1 {
+  border: 2px black solid;
+  background-color: #ff5900;
+  color: white;
+  width: 100px;
+  min-height: 40px;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.but2 {
+  border: 2px black solid;
+  background-color: #dfe447fe;
+  color: white;
+  width: 200px;
+  min-height: 40px;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+div h1 {
+  /* border: 1px black solid; */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.hotfood {
+  /* border: 1px black solid; */
+  display: grid;
+  grid-template: 1fr 1fr / repeat(3, 1fr);
+  gap: 25px;
+  margin-top:50px 
+}
+
+#cuisine {
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  
+  background-color: #f2a760f7;
+
+}
+.noodles img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.noodles h2{
+display: flex;
+justify-content: center;
+
+}
+#cuisine h1{
+  height:100px;
+  padding-top: 100px;
+}
+
+.noodles h2{
+  /* border: solid black; */
+  margin: 0;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.buttonF button{
+  background-color: #ff5900;
+  border-radius: 3px;
+  color: white;
+  width:100px ;
+  height: 40px;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  font-size: 15px;
+
+}
+img{
+width: 400px;
+}
+.about-me p{
+  /* border: 1px black solid; */
+  color: black;
+  width: 500px ;
+  justify-content: center;
+}
+.about-me{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.contact-me{
+  /* border: black solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dfe447fe;
+  color: white;
+  /* margin-bottom:25px ; */
+  height: 300px;
+}
+.full-name{
+  border-radius: 4px;
+  width: 400px ;
+  height: 40px;
+}
+#message{
+  border-radius: 4px;
+  width: 400px ;
+  height: 80px;
+}
+div button{
+  border-radius: 4.5px;
+  width: 300px;
+  height: 30px;
+  background-color: #ff5900;
+  color: white;
+}
+div h2{
+  /* color: white; */
+  /* padding-top: 20px ; */
+}
+.end{
+border:1px black solid ;
+background-color: black;
+margin: 0;
+
+}
+.end h2{
+  color: white;
+  font-size: 1rem;
+  margin-left: 50px;
+  height: 40px;
+}
+.end + h2{
+margin-top: 20px;
+}
+fonts.googleapis.com
